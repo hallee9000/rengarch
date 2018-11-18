@@ -1,0 +1,23 @@
+{
+  "name": "rengarch",
+  "version": "1.0.0",
+  "description": "礽建筑网站",
+  "main": "index.js",
+  "repository": "git@git.dev.tencent.com:reng/rengarch.git",
+  "author": "Jun <857098475@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export -o coding-pages"
+  },
+  "dependencies": {
+    "@zeit/next-less": "^1.0.1",
+    "less": "^3.8.1",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}

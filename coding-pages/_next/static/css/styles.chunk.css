@@ -1,0 +1,39 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  padding-top: 30px;
+}
+.header .header-nav {
+  display: flex;
+  align-items: center;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.header .header-nav .nav-link {
+  padding-right: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header .header-nav .nav-link.nav-logo img {
+  width: 150px;
+}
+.header .header-nav .nav-stretch {
+  flex: 1;
+}
+
+.home {
+  background: #FFF;
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
