@@ -8,6 +8,10 @@ const withLess = require('@zeit/next-less')
 const withCss = require('@zeit/next-css')
 
 module.exports = withCss(withLess({
+	exportPathMap(defaultPathMap) {
+		defaultPathMap['/404.html'] = defaultPathMap['/404']
+		return defaultPathMap
+	},
 	webpack(config, options) {
 		config.resolve.alias.layouts = resolveApp('layouts')
 		config.resolve.alias.components = resolveApp('components')
