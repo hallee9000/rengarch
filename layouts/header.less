@@ -1,21 +1,45 @@
+@import '~assets/vars.less';
 .header{
-	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	.header-logo{
+		width: 130px;
+		height: 40px;
+	}
+	.header-stretch{
+		flex: 1;
+	}
 	.header-nav{
-		display: flex;
-		align-items: center;
 		.nav-link{
 			padding-right: 50px;
+			color: #9E9E9E;
 			font-size: 16px;
 			font-weight: 500;
+			&:hover,
+			&:active,
+			&.active{
+				color: #333;
+			}
 			&:last-child{
 				padding-right: 0;
 			}
-			&.nav-logo img{
-				width: 150px;
-			}
 		}
-		.nav-stretch{
-			flex: 1;
+	}
+}
+
+@media (max-width: @mobile-point - 1){
+	.header{
+		.header-nav{
+			display: none;
+		}
+	}
+}
+
+@media (min-width: @mobile-point){
+	.header{
+		.header-mobile{
+			display: none;
 		}
 	}
 }

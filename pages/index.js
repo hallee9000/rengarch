@@ -1,2 +1,2 @@
-import Home from './home'
-export default () => <Home/>
+import Projects from './projects'
+export default () => <Projects/>

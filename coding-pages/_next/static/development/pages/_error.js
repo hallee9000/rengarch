@@ -6134,7 +6134,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 5:
 /*!******************************************************!*\
   !*** multi ./node_modules/next/dist/pages/_error.js ***!
   \******************************************************/
@@ -6159,5 +6159,5 @@ module.exports = dll_52339ab353c8e0db40da;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=_error.js.map

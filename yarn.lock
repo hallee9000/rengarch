@@ -1493,6 +1493,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "http://registry.npm.taobao.org/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha1-Q5Nb/90pHzJtrQogUwmzjQD2UM4=
+
 cli-cursor@^2.0.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/cli-cursor/download/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -1885,6 +1890,13 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+dom7@^2.1.2:
+  version "2.1.2"
+  resolved "http://registry.npm.taobao.org/dom7/download/dom7-2.1.2.tgz#a914070c0abe8465384997a9c4f34475f67f75bd"
+  integrity sha1-qRQHDAq+hGU4SZepxPNEdfZ/db0=
+  dependencies:
+    ssr-window "^1.0.1"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -4058,6 +4070,15 @@ react-error-overlay@4.0.0:
   resolved "http://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
   integrity sha1-0ZhAioW0Bwk3qYZn9QDIMvhr1dQ=
 
+react-id-swiper@^1.6.8:
+  version "1.6.8"
+  resolved "http://registry.npm.taobao.org/react-id-swiper/download/react-id-swiper-1.6.8.tgz#0b04def5333be75f698b061e18522fc5e52a4b6e"
+  integrity sha1-CwTe9TM7519piwYeGFIvxeUqS24=
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    swiper "4.4.1"
+
 react@^16.6.3:
   version "16.6.3"
   resolved "http://registry.npm.taobao.org/react/download/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
@@ -4597,6 +4618,11 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
+ssr-window@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/ssr-window/download/ssr-window-1.0.1.tgz#30752a6a4666e7767f0b7e6aa6fc2fdbd0d9b369"
+  integrity sha1-MHUqakZm53Z/C35qpvwv29DZs2k=
+
 ssri@^5.2.4:
   version "5.3.0"
   resolved "http://registry.npm.taobao.org/ssri/download/ssri-5.3.0.tgz#ba3872c9c6d33a0704a7d71ff045e5ec48999d06"
@@ -4761,6 +4787,14 @@ supports-color@^5.3.0, supports-color@^5.4.0, supports-color@^5.5.0:
   integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
   dependencies:
     has-flag "^3.0.0"
+
+swiper@4.4.1:
+  version "4.4.1"
+  resolved "http://registry.npm.taobao.org/swiper/download/swiper-4.4.1.tgz#9eeca17c5bfa4a27663963b2640119e5fc668255"
+  integrity sha1-nuyhfFv6SidmOWOyZAEZ5fxmglU=
+  dependencies:
+    dom7 "^2.1.2"
+    ssr-window "^1.0.1"
 
 table@^4.0.3:
   version "4.0.3"

@@ -9,15 +9,17 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build",
     "start": "next start",
-    "export": "next export -o coding-pages"
+    "build": "next build",
+    "export": "next build && next export -o coding-pages"
   },
   "dependencies": {
     "@zeit/next-less": "^1.0.1",
+    "classnames": "^2.2.6",
     "less": "^3.8.1",
     "next": "^7.0.2",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-id-swiper": "^1.6.8"
   }
 }
