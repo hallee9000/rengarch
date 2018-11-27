@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import MobileNav from 'components/MobileNav'
 import { withRouter } from 'next/router'
 import { isActive } from 'utils/url'
 import classnames from 'classnames'
@@ -26,9 +27,7 @@ const Header = props =>
 				<a className={classnames('nav-link', {active: isActive(props, '/contact')})}>Contact</a>
 			</Link>
 		</nav>
-		<div className="header-mobile">
-			≡
-		</div>
+		<MobileNav/>
 	</header>
 
 export default withRouter(Header)

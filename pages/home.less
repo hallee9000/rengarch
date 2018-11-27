@@ -1,0 +1,32 @@
+@import '~assets/vars.less';
+.home {
+	height: calc(100% - 70px);
+	padding-top: 30px;
+	background: #FFF;
+	.home-swiper{
+		width: 100%;
+		.swiper-slide{
+			img{
+				width: 100%;
+			}
+			p{
+				margin: 0;
+			}
+		}
+		.swiper-pagination{
+			text-align: right;
+			.swiper-pagination-bullet-active{
+				background: #333;
+			}
+		}
+	}
+}
+
+// @media (max-width: @mobile-point - 1){
+// 	.projects {
+// 		padding-top: 30px;
+// 		.projects-swiper{
+// 			height: 100%;
+// 		}
+// 	}
+// }

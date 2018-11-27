@@ -1,0 +1,28 @@
+.menu{
+	width: 25px;
+	height: 22px;
+	padding: 5px;
+	>span{
+		display: block;
+		height: 2px;
+		margin-bottom: 3px;
+		background: #333;
+		transition: all 0.2s;
+		transform-origin: left center;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	&.menu-open{
+		.menu-top{
+			transform: rotate(45deg);
+		}
+		.menu-middle{
+			transform: translateX(15px);
+			opacity: 0;
+		}
+		.menu-bottom{
+			transform: rotate(-45deg);
+		}
+	}
+}

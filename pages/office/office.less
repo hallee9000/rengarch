@@ -1,0 +1,34 @@
+.office{
+	height: calc(100% - 70px);
+	display: flex;
+	align-items: center;
+	.container{
+		display: flex;
+		.office-side{
+			width: 500px;
+			font-size: 16px;
+			li{
+				margin-bottom: 38px;
+				color: #A8A8A8;
+				cursor: pointer;
+				transition: color 0.4s;
+				&:hover,
+				&:active,
+				&.active{
+					color: #333;
+				}
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+		.office-content{
+			ul{
+				display: none;
+				&.content-visible{
+					display: block;
+				}
+			}
+		}
+	}
+}

@@ -8,8 +8,19 @@ const withLess = require('@zeit/next-less')
 const withCss = require('@zeit/next-css')
 
 module.exports = withCss(withLess({
-	exportPathMap(defaultPathMap) {
+	exportPathMap(defaultPathMap, { dev }) {
+		if (dev) {
+			return defaultPathMap
+		}
+		delete defaultPathMap['/projects/detail']
+		delete defaultPathMap['/art/detail']
 		defaultPathMap['/404.html'] = defaultPathMap['/404']
+		defaultPathMap['/projects/xiaoyin.html'] = { page: '/projects/detail', query: { name: 'xiaoyin' }}
+		defaultPathMap['/projects/bonus.html'] = { page: '/projects/detail', query: { name: 'bonus' }}
+		defaultPathMap['/projects/silk-road.html'] = { page: '/projects/detail', query: { name: 'silk-road' }}
+		defaultPathMap['/art/brick-seat.html'] = { page: '/art/detail', query: { name: 'brick-seat' }}
+		defaultPathMap['/art/mo.html'] = { page: '/art/detail', query: { name: 'mo' }}
+		defaultPathMap['/art/road.html'] = { page: '/art/detail', query: { name: 'red' }}
 		return defaultPathMap
 	},
 	webpack(config, options) {
