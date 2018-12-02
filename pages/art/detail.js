@@ -6,9 +6,10 @@ import "./detail.less"
 
 const params = {
 	autoplay: true,
-	autoHeight: true,
-	slidesPerView: 2,
+	slidesPerView: 'auto',
 	centeredSlides: true,
+	autoHeight: true,
+	spaceBetween: 20,
 	mousewheel: {
 		sensitivity: 2
 	},
@@ -20,8 +21,7 @@ const params = {
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev'
-	},
-	spaceBetween: 20
+	}
 }
 
 const arts = {

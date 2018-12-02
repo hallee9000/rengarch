@@ -28,10 +28,6 @@ export default class Office extends React.Component {
 							<div>主持建筑师</div>
 							<div>Chief Architect</div>
 						</li>
-						<li onClick={e => this.toggleCurrent(3)} className={classnames({active: current===3})}>
-							<div>团队</div>
-							<div>TEAM</div>
-						</li>
 					</ul>
 					<div className="office-content">
 						<ul className={classnames({'content-visible': current===1})}>
@@ -48,9 +44,6 @@ export default class Office extends React.Component {
 								<h3>施新桐</h3>
 								<p>本科 湖南大学建筑学院建筑学专业 曾策划个人画展即【世界即一个瓶子】</p>
 							</li>
-						</ul>
-						<ul className={classnames({'content-visible': current===3})}>
-							<li></li>
 						</ul>
 					</div>
 				</div>

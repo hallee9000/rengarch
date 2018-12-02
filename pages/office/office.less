@@ -5,7 +5,8 @@
 	.container{
 		display: flex;
 		.office-side{
-			width: 500px;
+			flex-basis: 220px;
+			flex-shrink: 0;
 			font-size: 16px;
 			li{
 				margin-bottom: 38px;
@@ -23,8 +24,12 @@
 			}
 		}
 		.office-content{
+			height: 300px;
 			ul{
 				display: none;
+				h3{
+					margin-top: 0;
+				}
 				&.content-visible{
 					display: block;
 				}
