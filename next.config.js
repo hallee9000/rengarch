@@ -18,9 +18,9 @@ module.exports = withCss(withLess({
 		defaultPathMap['/projects/xiaoyin.html'] = { page: '/projects/detail', query: { name: 'xiaoyin' }}
 		defaultPathMap['/projects/bonus.html'] = { page: '/projects/detail', query: { name: 'bonus' }}
 		defaultPathMap['/projects/silk-road.html'] = { page: '/projects/detail', query: { name: 'silk-road' }}
+		defaultPathMap['/projects/red.html'] = { page: '/projects/detail', query: { name: 'red' }}
 		defaultPathMap['/art/brick-seat.html'] = { page: '/art/detail', query: { name: 'brick-seat' }}
 		defaultPathMap['/art/mo.html'] = { page: '/art/detail', query: { name: 'mo' }}
-		defaultPathMap['/art/road.html'] = { page: '/art/detail', query: { name: 'red' }}
 		return defaultPathMap
 	},
 	webpack(config, options) {

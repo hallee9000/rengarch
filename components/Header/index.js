@@ -15,16 +15,16 @@ const Header = props =>
 		<span className="header-stretch"/>
 		<nav className="header-nav">
 			<Link href="/projects">
-				<a className={classnames('nav-link', {active: isActive(props, '/projects')})}>项目</a>
+				<a className={classnames('nav-link', {active: isActive(props, '/projects')})}><span>项目</span><br/>Projects</a>
 			</Link>
 			<Link href="/art">
-				<a className={classnames('nav-link', {active: isActive(props, '/art')})}>艺术</a>
+				<a className={classnames('nav-link', {active: isActive(props, '/art')})}><span>艺术</span><br/>Art</a>
 			</Link>
 			<Link href="/office">
-				<a className={classnames('nav-link', {active: isActive(props, '/office')})}>关于</a>
+				<a className={classnames('nav-link', {active: isActive(props, '/office')})}><span>关于</span><br/>Office</a>
 			</Link>
 			<Link href="/contact">
-				<a className={classnames('nav-link', {active: isActive(props, '/contact')})}>联系我们</a>
+				<a className={classnames('nav-link', {active: isActive(props, '/contact')})}><span>联系我们</span><br/>Contact</a>
 			</Link>
 		</nav>
 		<MobileNav/>
