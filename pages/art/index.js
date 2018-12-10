@@ -18,11 +18,6 @@ const pictures = [{
 	title: '砖座',
 	subtitle: '中国北京·2018'
 }, {
-	key: 'red',
-	src: '/static/art/red.jpg',
-	title: '紅',
-	subtitle: '中国北京·2016'
-}, {
 	key: 'mo',
 	src: '/static/art/mo.jpg',
 	title: '膜',

@@ -34,12 +34,7 @@ const arts = {
 	'mo': [
 		'1.jpg',
 		'2.jpg',
-		'3.jpg',
-		'4.jpg'
-	],
-	'red': [
-		'1.jpg',
-		'2.jpg'
+		'3.jpg'
 	]
 }
 

@@ -12,7 +12,7 @@ export default class CustomApp extends App {
 		const timeId = setTimeout(() => {
 			this.setState({ visible: false })
 			clearTimeout(timeId)
-		}, 2000)
+		}, 2800)
 	}
 	static async getInitialProps({ Component, router, ctx }) {
 		let pageProps = {}
