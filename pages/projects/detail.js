@@ -33,6 +33,16 @@ const projects = {
 		},
 		'1.jpg',
 		{
+			img: '11.gif',
+			description: '项目所在西安民乐园步行街，楼上是居住楼，楼底是两层的商业业态，这是今日街道的一个缩影。',
+			enDescription: 'The project located on the walking street of Min Le Park in Xi\'an. As the accommodation function in its higherfloors and the commercial function in the first and second floor, it miniatures today\'s street.'
+		},
+		{
+			img: '12.gif',
+			description: '项目所在位置处于联排白色店铺之中。空间现状正是一个白色的房子。我们希望通过这样一处场所来讨论城市的“公众性”，将“开放”与“分享”嵌入到空间之中，使其成为今天的“城市客厅”。',
+			enDescription: 'Sitting among a series of raw white shops, it is a white house at present. We hope to discuss the “publicity” of our city through such a place and implant "open" and "sharing" into the space to make it an “urban lounge” today.'
+		},
+		{
 			img: '2.jpg',
 			title: '回馈街道的立面',
 			description: '关于公众参与感,我们希望在建筑立面上有所体现，使其显示出公众性。公众参与感引发各种行为的可能，包括：坐、站、倚、靠、躲雨等。这些日常动人的感受成为设计的出发点，即城市需要一个后退的立面回馈街道。在设计中，高度成为立面的划分线，形成“高低不一的切面”。切面的高度是功能的反应，延伸至空间内外。进退中形成形态不一的半室外空间参与到街道的互动中。',
@@ -80,16 +90,6 @@ const projects = {
 			description: '通过绘画的方式去表达“城市的孤独感”，城市中的阳台像一个个生活的窗口，“阳台的观望“即是集体的记忆。二层漂浮的阳台使店铺不是独立的个体，而是城市界面的顺延，与建筑本身周边居民阳台形成相互之间的照应。',
 			enTitle: 'Gazing from the balcony',
 			enDescription: 'Our design intends to express "the loneliness of our city" through painting : every balcony insides our city seems like a window of urban life and gazing from the balcony is our collective memory.  As the balcony floating on the second floor, our space does not exist as an independent individual but act as the extension of urban interface，forming a mutual correspondence to the original residential balconies.'
-		},
-		{
-			img: '11.gif',
-			description: '项目所在西安民乐园步行街，楼上是居住楼，楼底是两层的商业业态，这是今日街道的一个缩影。',
-			enDescription: 'The project located on the walking street of Min Le Park in Xi\'an. As the accommodation function in its higherfloors and the commercial function in the first and second floor, it miniatures today\'s street.'
-		},
-		{
-			img: '12.gif',
-			description: '项目所在位置处于联排白色店铺之中。空间现状正是一个白色的房子。我们希望通过这样一处场所来讨论城市的“公众性”，将“开放”与“分享”嵌入到空间之中，使其成为今天的“城市客厅”。',
-			enDescription: 'Sitting among a series of raw white shops, it is a white house at present. We hope to discuss the “publicity” of our city through such a place and implant "open" and "sharing" into the space to make it an “urban lounge” today.'
 		}
 	],
 	'xiaoyin': [
