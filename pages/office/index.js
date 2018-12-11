@@ -38,11 +38,11 @@ export default class Office extends React.Component {
 						<ul className={classnames({'content-visible': current===2})}>
 							<li>
 								<h3>章礽然</h3>
-								<p>本科 中国美术学院建筑艺术学院建筑艺术系 硕士 英国伦敦大学学院巴特莱特建筑学院 (University College London，Bartlett School of Architecture)</p>
+								<p>本科 中国美术学院建筑艺术学院建筑艺术系<br/>硕士 英国伦敦大学学院巴特莱特建筑学院 (University College London，Bartlett School of Architecture)</p>
 							</li>
 							<li>
 								<h3>施新桐</h3>
-								<p>本科 湖南大学建筑学院建筑学专业 曾策划个人画展即【世界即一个瓶子】</p>
+								<p>本科 湖南大学建筑学院建筑学专业<br/>曾策划个人画展即【世界即一个瓶子】</p>
 							</li>
 						</ul>
 					</div>
