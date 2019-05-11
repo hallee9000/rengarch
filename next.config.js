@@ -19,6 +19,7 @@ module.exports = withCss(withLess({
 		defaultPathMap['/projects/bonus.html'] = { page: '/projects/detail', query: { name: 'bonus' }}
 		defaultPathMap['/projects/silk-road.html'] = { page: '/projects/detail', query: { name: 'silk-road' }}
 		defaultPathMap['/projects/red.html'] = { page: '/projects/detail', query: { name: 'red' }}
+		defaultPathMap['/projects/dian.html'] = { page: '/projects/detail', query: { name: 'dian' }}
 		defaultPathMap['/art/brick-seat.html'] = { page: '/art/detail', query: { name: 'brick-seat' }}
 		defaultPathMap['/art/mo.html'] = { page: '/art/detail', query: { name: 'mo' }}
 		return defaultPathMap
