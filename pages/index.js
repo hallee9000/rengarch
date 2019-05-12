@@ -39,7 +39,7 @@ const pictures = [{
 	key: 'dian',
 	src: '/static/dian.jpg',
 	title: '靛',
-	subtitle: '中国北京·2019'
+	subtitle: '中国西安·2019'
 }]
 
 export default () =>
