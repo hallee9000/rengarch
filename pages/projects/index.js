@@ -23,11 +23,11 @@ const pictures = [{
 	title: '小隐·观山民宿酒店',
 	subtitle: '中国北京.2016'
 }, {
-	key: 'silk-road',
-	src: '/static/projects/silk-road.jpg',
-	title: '故宫博物院·海上丝绸之路展',
-	subtitle: '中国北京.2017'
-}, {
+// 	key: 'silk-road',
+// 	src: '/static/projects/silk-road.jpg',
+// 	title: '故宫博物院·海上丝绸之路展',
+// 	subtitle: '中国北京.2017'
+// }, {
 	key: 'red',
 	src: '/static/projects/red.jpg',
 	title: '紅',
