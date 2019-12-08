@@ -11,7 +11,8 @@
     "dev": "next",
     "start": "next start",
     "build": "next build",
-    "export": "next build && next export -o gh-pages"
+    "export": "next build && next export -o gh-pages",
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
     "@zeit/next-less": "^1.0.1",
