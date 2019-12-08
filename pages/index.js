@@ -21,6 +21,12 @@ const params = {
 }
 
 const pictures = [{
+	src: '/static/fengshiguangju.jpg',
+	link: 'projects/detail?name=fengshiguangju',
+	asLink: 'projects/fengshiguangju',
+	title: '风拾光居民宿',
+	subtitle: '中国北京.2019'
+}, {
 	src: '/static/bonus.jpg',
 	link: 'projects/detail?name=bonus',
 	asLink: 'projects/dian',
@@ -32,6 +38,12 @@ const pictures = [{
 	asLink: 'projects/xiaoyin',
 	title: '小隐·观山民宿酒店',
 	subtitle: '中国北京.2016'
+}, {
+	src: '/static/cfa.jpg',
+	link: 'projects/detail?name=cfa',
+	asLink: 'projects/cfa',
+	title: '北京中国民族民间舞蹈家协会空间',
+	subtitle: '中国北京.2019'
 }, {
 // 	src: '/static/silk-road.jpg',
 // 	title: '故宫博物院·海上丝绸之路展',

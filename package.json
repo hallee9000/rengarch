@@ -11,7 +11,7 @@
     "dev": "next",
     "start": "next start",
     "build": "next build",
-    "export": "next build && next export -o gh-pages",
+    "export": "next build && next export -o coding-pages",
     "deploy": "./deploy.sh"
   },
   "dependencies": {
