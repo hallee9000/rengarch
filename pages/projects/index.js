@@ -13,10 +13,25 @@ const params = {
 }
 
 const pictures = [{
+	key: 'fengshiguangju',
+	src: '/static/projects/fengshiguangju.jpg',
+	title: '风拾光居民宿',
+	subtitle: '中国北京.2019'
+}, {
 	key: 'bonus',
 	src: '/static/projects/bonus.jpg',
 	title: 'BONUS 空间设计',
 	subtitle: '中国西安.2018'
+}, {
+	key: 'dian',
+	src: '/static/projects/dian.jpg',
+	title: '靛',
+	subtitle: '中国西安·2019'
+}, {
+	key: 'cfa',
+	src: '/static/projects/cfa.jpg',
+	title: '北京中国民族民间舞蹈家协会空间',
+	subtitle: '中国北京.2019'
 }, {
 	key: 'xiaoyin',
 	src: '/static/projects/xiaoyin.jpg',
@@ -32,11 +47,6 @@ const pictures = [{
 	src: '/static/projects/red.jpg',
 	title: '紅',
 	subtitle: '中国北京·2016'
-}, {
-	key: 'dian',
-	src: '/static/projects/dian.jpg',
-	title: '靛',
-	subtitle: '中国西安·2019'
 }]
 
 export default () =>

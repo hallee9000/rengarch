@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Swiper from 'react-id-swiper'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./home.less"
@@ -21,10 +22,14 @@ const params = {
 
 const pictures = [{
 	src: '/static/bonus.jpg',
+	link: 'projects/detail?name=bonus',
+	asLink: 'projects/dian',
 	title: 'BONUS 空间设计',
 	subtitle: '中国西安.2018'
 }, {
 	src: '/static/xiaoyin.jpg',
+	link: 'projects/detail?name=xiaoyin',
+	asLink: 'projects/xiaoyin',
 	title: '小隐·观山民宿酒店',
 	subtitle: '中国北京.2016'
 }, {
@@ -33,11 +38,14 @@ const pictures = [{
 // 	subtitle: '中国北京.2017'
 // }, {
 	src: '/static/red.jpg',
+	link: 'projects/detail?name=red',
+	asLink: 'projects/red',
 	title: '紅',
 	subtitle: '中国北京·2016'
 }, {
-	key: 'dian',
 	src: '/static/dian.jpg',
+	link: 'projects/detail?name=dian',
+	asLink: 'projects/dian',
 	title: '靛',
 	subtitle: '中国西安·2019'
 }]
@@ -49,9 +57,13 @@ export default () =>
 				{
 					pictures.map((p, i) =>
 						<div key={i}>
-							<div style={{backgroundImage: `url(${p.src})`}}/>
-							<p className="swiper-title">{p.title}</p>
-							<p className="swiper-subtitle">{p.subtitle}</p>
+							<Link href={p.link} as={p.asLink}>
+								<a>
+									<div style={{backgroundImage: `url(${p.src})`}}/>
+									<p className="swiper-title">{p.title}</p>
+									<p className="swiper-subtitle">{p.subtitle}</p>
+								</a>
+							</Link>
 						</div>
 					)
 				}

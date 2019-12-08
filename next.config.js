@@ -15,9 +15,11 @@ module.exports = withCss(withLess({
 		delete defaultPathMap['/projects/detail']
 		delete defaultPathMap['/art/detail']
 		defaultPathMap['/404.html'] = defaultPathMap['/404']
+		defaultPathMap['/projects/fengshiguangju.html'] = { page: '/projects/detail', query: { name: 'fengshiguangju' }}
+		defaultPathMap['/projects/cfa.html'] = { page: '/projects/detail', query: { name: 'cfa' }}
 		defaultPathMap['/projects/xiaoyin.html'] = { page: '/projects/detail', query: { name: 'xiaoyin' }}
 		defaultPathMap['/projects/bonus.html'] = { page: '/projects/detail', query: { name: 'bonus' }}
-		defaultPathMap['/projects/silk-road.html'] = { page: '/projects/detail', query: { name: 'silk-road' }}
+		// defaultPathMap['/projects/silk-road.html'] = { page: '/projects/detail', query: { name: 'silk-road' }}
 		defaultPathMap['/projects/red.html'] = { page: '/projects/detail', query: { name: 'red' }}
 		defaultPathMap['/projects/dian.html'] = { page: '/projects/detail', query: { name: 'dian' }}
 		defaultPathMap['/art/brick-seat.html'] = { page: '/art/detail', query: { name: 'brick-seat' }}

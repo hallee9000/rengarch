@@ -1,6 +1,6 @@
 import { withRouter } from 'next/router'
+import Error from 'next/error'
 import Swiper from 'react-id-swiper'
-import { numberToArray } from 'utils/helper'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./detail.less"
 
@@ -42,6 +42,8 @@ export default withRouter((props) => {
 	const artName = props.router.query.name
 	const pictures = arts[artName]
 	return (
+		!pictures ?
+		<Error statusCode={404}/> :
 		<div className="art-detail">
 			<Swiper {...params} containerClass="swiper-container detail-swiper">
 				{
