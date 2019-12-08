@@ -7,13 +7,13 @@ set -e
 yarn export
 
 # 进入生成的文件夹
-cd gh-pages
+cd coding-pages
 
 git init
 git add -A
 git commit -m 'deploy'
 
-# 发布到 GitHub
-git push -f git@github.com:leadream/rengarch.git master:gh-pages
+# 发布到 CODING
+git push -f git@git.dev.tencent.com:reng/rengarch.git master:coding-pages
 
 cd -
