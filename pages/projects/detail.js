@@ -49,7 +49,6 @@ const projects = {
 			enDescription: 'As for the possibility of public engagement, we hope it can be reflected on the building facade and show the publicity. Public participation initiates the possibility of variable activities, such as sitting, standing, reclining, leaning, sheltering from the rain，etc. Feelings brought by these daily activities become our design conception — a spatial area in front of the facade is necessary for our urban life. With contour lines dividing the facade during the design, horizontal planes of different height are produced. Horizontal planes stretch into the street space as their heights reflect their function. Along with the advancing and retreating, semi-outdoor spaces are naturally shaped and interact with the street.'
 		},
 		'5.jpg',
-		'6.jpg',
 		'7.jpg',
 		{
 			img: '8.jpg',
@@ -59,21 +58,8 @@ const projects = {
 			enDescription: 'More public spaces probably produce more collective memories.  "Urban Lounge" is our expectation of public projects. Our design offers as much ground floor as possible to the city street. By organizing the space, the ground floor gets the maximum height and depth so that it adapts to the variability of functions. As a result, the space turns into not only a brunch restaurant , but also an "urban Lounge" which may act as an exhibition hall, a cinema, a theater and an activity hall.'
 		},
 		'9.jpg',
-		{
-			img: '10.jpg',
-			title: '从立面折出的长桌',
-			description: '用立面/剖面的方式去思考空间的平面，立面的形式语言折叠成平面的布局。身处于相同的时空中，去体会和感受一个折叠的场所。设计中，餐桌成为建筑立面构件的一部分，通过家具建筑化的处理，进一步强化空间公共性。',
-			enTitle: 'Long table folded from the facade',
-			enDescription: 'Considering plan in terms of elevation and section, the formal language of elevation is folded into plan layout. Standing at the same spot and time, a folding space can be experienced. In the design, dining table becomes a part of the building facade, which further strengthens the publicity of space through the furniture’s architecturization.'
-
-		},
 		'11.jpg',
-		'12.jpg',
-		{
-			img: '13.jpg',
-			description: '夹层位于吧台之上，在此可以俯瞰一层大厅，夹层的设计强化了一层公共大厅作为主空间的意向。',
-			enDescription: 'The mezzanine situates above the bar, where visitors can overlook the lobby, and the mezzanine\'s design reinforces the intention of public hall as main space.'
-		}
+		'12.jpg'
 	],
 	'xiaoyin': [
 		'4.jpg',
