@@ -108,7 +108,6 @@ const projects = {
 		'6.jpg',
 		'7.jpg',
 		'7-1.jpg',
-		'7-2.jpg',
 		'8-1.jpg',
 		'8.jpg',
 		'9.jpg',
