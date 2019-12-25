@@ -16,7 +16,9 @@ jobs:
     - run: npm install
     - run: npm run export
     - run: cd coding-pages
+    - run: ls
     - run: touch .nojekyll
+    - run: ls
     - name: GitHub Pages
       uses: crazy-max/ghaction-github-pages@v1.2.5
       with:
