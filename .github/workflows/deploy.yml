@@ -13,12 +13,13 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '10.x'
-    - run: touch .nojekyll
     - run: npm install
     - run: npm run export
+    - run: cd coding-pages
+    - run: touch .nojekyll
     - name: GitHub Pages
       uses: crazy-max/ghaction-github-pages@v1.2.5
       with:
-        build_dir:  coding-pages
+        build_dir: coding-pages
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
