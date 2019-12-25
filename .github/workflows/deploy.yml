@@ -15,10 +15,7 @@ jobs:
         node-version: '10.x'
     - run: npm install
     - run: npm run export
-    - run: cd coding-pages
-    - run: ls
-    - run: touch .nojekyll
-    - run: ls
+    - run: cd coding-pages && touch .nojekyll
     - name: GitHub Pages
       uses: crazy-max/ghaction-github-pages@v1.2.5
       with:
