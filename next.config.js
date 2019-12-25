@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 const appDirectory = fs.realpathSync(process.cwd())
 
-// const isProd = process.env.NODE_ENV === 'production'
+const isProd = process.env.NODE_ENV === 'production'
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath)
 // next.config.js
 const withLess = require('@zeit/next-less')
