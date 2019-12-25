@@ -9,7 +9,7 @@ const Header = props =>
 	<header className="header container">
 		<Link href="/">
 			<a className="header-logo">
-				<img src="/static/logo.png"/>
+				<img src="./static/logo.png"/>
 			</a>
 		</Link>
 		<span className="header-stretch"/>
