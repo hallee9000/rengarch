@@ -9,7 +9,7 @@ const withLess = require('@zeit/next-less')
 const withCss = require('@zeit/next-css')
 
 module.exports = withCss(withLess({
-	assetPrefix: isProd ? '.' : '',
+	// assetPrefix: isProd ? '/rengarch' : '',
 	exportPathMap(defaultPathMap, { dev }) {
 		if (dev) {
 			return defaultPathMap
