@@ -9,6 +9,7 @@ export default class CustomApp extends App {
 		this.state = {
 			visible: true
 		}
+		console.log(1)
 		const timeId = setTimeout(() => {
 			this.setState({ visible: false })
 			clearTimeout(timeId)
@@ -21,6 +22,9 @@ export default class CustomApp extends App {
 			pageProps = await Component.getInitialProps(ctx)
 		}
 		return { pageProps }
+	}
+	componentDidMount () {
+		console.log(2)
 	}
 
 	render () {

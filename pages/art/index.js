@@ -30,7 +30,7 @@ export default () =>
 			{
 				pictures.map(p =>
 					<div key={p.key}>
-						<Link href={`/art/detail?name=${p.key}`} as={`/art/${p.key}`}>
+						<Link href="/art/[name]" as={`/art/${p.key}`}>
 							<a>
 								<div className="slide-mask">
 									<p className="mask-title">{ p.title }</p>
