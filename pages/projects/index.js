@@ -14,37 +14,37 @@ const params = {
 
 const pictures = [{
 	key: 'fengshiguangju',
-	src: '/static/projects/fengshiguangju.jpg',
+	src: '/projects/fengshiguangju.jpg',
 	title: '风拾光居民宿',
 	subtitle: '中国北京.2019'
 }, {
 	key: 'bonus',
-	src: '/static/projects/bonus.jpg',
+	src: '/projects/bonus.jpg',
 	title: 'BONUS 空间设计',
 	subtitle: '中国西安.2018'
 }, {
 	key: 'dian',
-	src: '/static/projects/dian.jpg',
+	src: '/projects/dian.jpg',
 	title: '靛',
 	subtitle: '中国西安·2019'
 }, {
 	key: 'cfa',
-	src: '/static/projects/cfa.jpg',
+	src: '/projects/cfa.jpg',
 	title: '北京中国民族民间舞蹈家协会空间',
 	subtitle: '中国北京.2019'
 }, {
 	key: 'xiaoyin',
-	src: '/static/projects/xiaoyin.jpg',
+	src: '/projects/xiaoyin.jpg',
 	title: '小隐·观山民宿酒店',
 	subtitle: '中国北京.2016'
 }, {
 // 	key: 'silk-road',
-// 	src: '/static/projects/silk-road.jpg',
+// 	src: '/projects/silk-road.jpg',
 // 	title: '故宫博物院·海上丝绸之路展',
 // 	subtitle: '中国北京.2017'
 // }, {
 	key: 'red',
-	src: '/static/projects/red.jpg',
+	src: '/projects/red.jpg',
 	title: '紅',
 	subtitle: '中国北京·2016'
 }]

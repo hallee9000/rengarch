@@ -3,5 +3,4 @@ db.json
 *.log
 node_modules/
 .next/
-gh-pages/
-coding-pages/
+dist/

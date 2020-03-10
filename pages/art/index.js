@@ -14,12 +14,12 @@ const params = {
 
 const pictures = [{
 	key: 'brick-seat',
-	src: '/static/art/brick-seat.jpg',
+	src: '/art/brick-seat.jpg',
 	title: '砖座',
 	subtitle: '中国北京·2018'
 }, {
 	key: 'mo',
-	src: '/static/art/mo.jpg',
+	src: '/art/mo.jpg',
 	title: '膜',
 	subtitle: '中国北京·2018'
 }]

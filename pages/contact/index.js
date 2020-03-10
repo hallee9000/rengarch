@@ -5,6 +5,6 @@ export default () =>
 		<div className="container">
 			<p>中国·北京</p>
 			<p>电邮: info@rengarch.com</p>
-			<img src="/static/qrcode.jpg"/>
+			<img src="/qrcode.jpg"/>
 		</div>
 	</div>

@@ -49,7 +49,7 @@ export default withRouter((props) => {
 				{
 					pictures.map(p =>
 						<div key={p}>
-							<img src={`/static/art/${artName}/${p}`}/>
+							<img src={`/art/${artName}/${p}`}/>
 						</div>
 					)
 				}

@@ -177,8 +177,8 @@ export default withRouter((props) => {
 						<div key={typeof p === 'string' ? p : p.img}>
 							{
 								typeof p === 'string' ?
-								<img src={`/static/projects/${projectName}/${p}`}/> :
-								<img src={`/static/projects/${projectName}/${p.img}`}/>
+								<img src={`/projects/${projectName}/${p}`}/> :
+								<img src={`/projects/${projectName}/${p.img}`}/>
 							}
 							{
 								typeof p !== 'string' &&
