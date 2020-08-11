@@ -4,40 +4,36 @@ import Mask from 'components/Mask'
 import DefaultLayout from 'layouts/DefaultLayout'
 
 export default class CustomApp extends App {
-	constructor (props) {
-		super(props)
-		this.state = {
-			visible: true
-		}
-		console.log(1)
-		const timeId = setTimeout(() => {
-			this.setState({ visible: false })
-			clearTimeout(timeId)
-		}, 2800)
-	}
-	static async getInitialProps({ Component, router, ctx }) {
-		let pageProps = {}
+  constructor (props) {
+    super(props)
+    this.state = {
+      visible: true
+    }
+    const timeId = setTimeout(() => {
+      this.setState({ visible: false })
+      clearTimeout(timeId)
+    }, 2800)
+  }
+  static async getInitialProps({ Component, router, ctx }) {
+    let pageProps = {}
 
-		if (Component.getInitialProps) {
-			pageProps = await Component.getInitialProps(ctx)
-		}
-		return { pageProps }
-	}
-	componentDidMount () {
-		console.log(2)
-	}
+    if (Component.getInitialProps) {
+      pageProps = await Component.getInitialProps(ctx)
+    }
+    return { pageProps }
+  }
 
-	render () {
-		const { Component, pageProps } = this.props
-		const { visible } = this.state
+  render () {
+    const { Component, pageProps } = this.props
+    const { visible } = this.state
 
-		return (
-			<DefaultLayout {...pageProps}>
-				{
-					visible && <Mask/>
-				}
-				<Component {...pageProps} />
-			</DefaultLayout>
-		)
-	}
+    return (
+      <DefaultLayout {...pageProps}>
+        {
+          visible && <Mask/>
+        }
+        <Component {...pageProps} />
+      </DefaultLayout>
+    )
+  }
 }
