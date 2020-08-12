@@ -2,6 +2,7 @@ import Head from 'next/head'
 import "assets/base.less"
 import "./defaultLayout.less"
 import Header from "components/Header"
+import Player from "components/Player"
 
 export default (props) => 
 	<div className="default-layout">
@@ -11,5 +12,6 @@ export default (props) =>
 			<link rel="shortcut icon" href="/favicon.ico" />
 		</Head>
 		<Header {...props}/>
+		<Player/>
 		{ props.children }
 	</div>
