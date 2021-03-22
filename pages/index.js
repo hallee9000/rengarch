@@ -9,9 +9,7 @@ const params = {
   },
   speed: 500,
   loop: true,
-  mousewheel: {
-    sensitivity: 2
-  },
+  keyboard: true,
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
@@ -21,10 +19,10 @@ const params = {
 }
 
 const pictures = [{
-  src: '/fengshiguangju.jpg',
+  src: '/self-abased-chapel.jpg',
   link: 'projects/[name]',
-  asLink: 'projects/fengshiguangju',
-  title: '风拾光居民宿',
+  asLink: 'projects/self-abased-chapel',
+  title: '自卑礼堂',
   subtitle: '中国北京.2019'
 }, {
   src: '/projects/lizigou.jpg',

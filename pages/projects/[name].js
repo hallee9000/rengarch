@@ -3,16 +3,16 @@ import Error from 'next/error'
 import Swiper from 'react-id-swiper'
 import ProjectBonus from 'components/ProjectBonus'
 import ProjectLizigou from 'components/ProjectLizigou'
+import ProjectSelfAbasedChapel from 'components/ProjectSelfAbasedChapel'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./detail.less"
 
 const params = {
   autoplay: true,
+  loop: true,
   centeredSlides: true,
   slidesPerView: 'auto',
-  mousewheel: {
-    sensitivity: 2
-  },
+  keyboard: true,
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
@@ -28,7 +28,7 @@ const params = {
 const projects = {
   'bonus': [
     {
-      img: '0.jpg',
+      img: '/white-background.jpg',
       component: <ProjectBonus/>
     },
     '1.jpg',
@@ -77,8 +77,11 @@ const projects = {
     '12.jpg',
     '13.jpg'
   ],
-  'fengshiguangju': [
-    '0.jpg',
+  'self-abased-chapel': [
+    {
+      img: '/white-background.jpg',
+      component: <ProjectSelfAbasedChapel/>
+    },
     '1.jpg',
     '2.jpg',
     '3.jpg',
@@ -89,18 +92,16 @@ const projects = {
     '8.jpg',
     '9.jpg',
     '10.jpg',
-    '11.jpg',
     '12.jpg',
     '13.jpg',
     '14.jpg',
     '15.jpg',
-    '16.jpg',
     '17.jpg',
     '18.jpg',
     '19.jpg',
     '20.jpg',
     '21.jpg',
-    '22.jpg',
+    '23-1.jpg',
     '23.jpg',
     '24.jpg',
     '25.jpg',
@@ -108,11 +109,28 @@ const projects = {
     '27.jpg',
     '28.jpg',
     '29.jpg',
-    '30.jpg'
+    '30.jpg',
+    '31.jpg',
+    '32.jpg',
+    '33.jpg',
+    '35.jpg',
+    '36.jpg',
+    '37.jpg',
+    '38.jpg',
+    '39.jpg',
+    '40.jpg',
+    '41.jpg',
+    '42.jpg',
+    '43.jpg',
+    '44.jpg',
+    '45.jpg',
+    '46.jpg',
+    '47.jpg',
+    '48.jpg',
   ],
   'lizigou': [
     {
-      img: '00.jpg',
+      img: '/white-background.jpg',
       component: <ProjectLizigou/>
     },
     '0.jpg',
@@ -214,7 +232,7 @@ export default withRouter((props) => {
               {
                 typeof p === 'string' ?
                 <img src={`/projects/${projectName}/${p}`}/> :
-                <img src={`/projects/${projectName}/${p.img}`}/>
+                <img src={p.img}/>
               }
               {
                 typeof p !== 'string' &&

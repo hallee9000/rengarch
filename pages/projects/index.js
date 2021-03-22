@@ -5,6 +5,8 @@ import "./projects.less"
 
 const params = {
   slidesPerView: 'auto',
+  loop: true,
+  keyboard: true,
   autoHeight: true,
   mousewheel: {
     sensitivity: 2
@@ -13,9 +15,9 @@ const params = {
 }
 
 const pictures = [{
-  key: 'fengshiguangju',
-  src: '/projects/fengshiguangju.jpg',
-  title: '风拾光居民宿',
+  key: 'self-abased-chapel',
+  src: '/projects/self-abased-chapel.jpg',
+  title: '自卑礼堂',
   subtitle: '中国北京.2019'
 }, {
   key: 'lizigou',
