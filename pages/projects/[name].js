@@ -4,6 +4,7 @@ import Swiper from 'react-id-swiper'
 import ProjectBonus from 'components/ProjectBonus'
 import ProjectLizigou from 'components/ProjectLizigou'
 import ProjectSelfAbasedChapel from 'components/ProjectSelfAbasedChapel'
+import ProjectSelfAbasedChapelVideo from 'components/ProjectSelfAbasedChapel/Video'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./detail.less"
 
@@ -81,6 +82,10 @@ const projects = {
     {
       img: '/white-background.jpg',
       component: <ProjectSelfAbasedChapel/>
+    },
+    {
+      img: '/white-background.jpg',
+      component: <ProjectSelfAbasedChapelVideo/>
     },
     '1.jpg',
     '2.jpg',
