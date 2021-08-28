@@ -25,6 +25,12 @@ const pictures = [{
   title: '自卑礼堂',
   subtitle: '中国北京.2019'
 }, {
+  src: '/projects/gaoxia-public-stage.jpg',
+  link: 'projects/[name]',
+  asLink: 'projects/gaoxia-public-stage',
+  title: '高丽营一村高下剧场',
+  subtitle: '中国北京顺义区.2020'
+}, {
   src: '/projects/lizigou.jpg',
   link:  'projects/[name]',
   asLink: 'projects/lizigou',

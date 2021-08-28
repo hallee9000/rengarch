@@ -20,6 +20,11 @@ const pictures = [{
   title: '自卑礼堂',
   subtitle: '中国北京.2019'
 }, {
+  key: 'gaoxia-public-stage',
+  src: '/projects/gaoxia-public-stage.jpg',
+  title: '高丽营一村高下剧场',
+  subtitle: '中国北京顺义区.2020'
+}, {
   key: 'lizigou',
   src: '/projects/lizigou.jpg',
   title: '李子沟村的红砖自然礼堂',

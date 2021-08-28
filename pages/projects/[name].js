@@ -3,8 +3,9 @@ import Error from 'next/error'
 import Swiper from 'react-id-swiper'
 import ProjectBonus from 'components/ProjectBonus'
 import ProjectLizigou from 'components/ProjectLizigou'
-import ProjectSelfAbasedChapel from 'components/ProjectSelfAbasedChapel'
-import ProjectSelfAbasedChapelVideo from 'components/ProjectSelfAbasedChapel/Video'
+import Video from 'components/content/Video'
+import GaoxiaPublicStage from 'components/content/GaoxiaPublicStage'
+import SelfAbasedChapel from 'components/content/SelfAbasedChapel'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./detail.less"
 
@@ -78,14 +79,58 @@ const projects = {
     '12.jpg',
     '13.jpg'
   ],
-  'self-abased-chapel': [
+  'gaoxia-public-stage': [
     {
       img: '/white-background.jpg',
-      component: <ProjectSelfAbasedChapel/>
+      component: <GaoxiaPublicStage/>
     },
     {
       img: '/white-background.jpg',
-      component: <ProjectSelfAbasedChapelVideo/>
+      component: <Video link="https://v.qq.com/txp/iframe/player.html?vid=i327066nkew"/>
+    },
+    '01.jpg',
+    '02.jpg',
+    '03.jpg',
+    '04.jpg',
+    '05.jpg',
+    '06.jpg',
+    '07.jpg',
+    '08.jpg',
+    '09.jpg',
+    '10.jpg',
+    '11.jpg',
+    '12.jpg',
+    '13.jpg',
+    '14.jpg',
+    '15.jpg',
+    '16.jpg',
+    '17.jpg',
+    '18.jpg',
+    '19.jpg',
+    '20.jpg',
+    '21.jpg',
+    '22.jpg',
+    '23.jpg',
+    '24.jpg',
+    '25.jpg',
+    '26.jpg',
+    '27.jpg',
+    '28.jpg',
+    '29.jpg',
+    '30.jpg',
+    '31.jpg',
+    '32.jpg',
+    '33.jpg',
+    '34.jpg',
+  ],
+  'self-abased-chapel': [
+    {
+      img: '/white-background.jpg',
+      component: <SelfAbasedChapel/>
+    },
+    {
+      img: '/white-background.jpg',
+      component: <Video link="https://v.qq.com/txp/iframe/player.html?vid=d3230jt35ko"/>
     },
     '1.jpg',
     '2.jpg',
@@ -232,12 +277,12 @@ export default withRouter((props) => {
     <div className="project-detail">
       <Swiper {...params} containerClass="swiper-container detail-swiper">
         {
-          pictures.map(p =>
-            <div key={typeof p === 'string' ? p : p.img}>
+          pictures.map((p, i) =>
+            <div key={i}>
               {
                 typeof p === 'string' ?
                 <img src={`/projects/${projectName}/${p}`}/> :
-                <img src={p.img}/>
+                <img src={p.img==='/white-background.jpg' ? p.img : `/projects/${projectName}/${p.img}`}/>
               }
               {
                 typeof p !== 'string' &&

@@ -43,4 +43,3 @@ export default () =>
     <p>Think of the Chapel as the "end point" and the Tower of Childhood as the "starting point". The metaphors about start and end on timeline simultaneously exist on the spatial line. At this point, the co-existence made them reciprocal causation—the mutual caring between the previous and subsequent stages of life.</p>
     <p>With the booming of consumerism, it may also brings us a depressed mood. This is the reason why more and more people are making their way to countryside and nature— they are seeking for some origins. Things like sunlight, rainwater, wind, inner self and those physical joy in the childhood from the bottom heart are easily ignored, but at the end, these are the most touching beings the world could have.</p>
   </div>
-
