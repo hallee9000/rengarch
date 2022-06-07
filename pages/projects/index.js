@@ -36,6 +36,11 @@ const pictures = [{
   title: 'BONUS 空间设计',
   subtitle: '中国西安.2018'
 }, {
+  key: 'in-the-middle-of-the-cloud',
+  src: '/projects/in-the-middle-of-the-cloud.jpg',
+  title: '云中间',
+  subtitle: '中国北京.2021'
+}, {
   key: 'dian',
   src: '/projects/dian.jpg',
   title: '靛',

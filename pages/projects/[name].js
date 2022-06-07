@@ -6,6 +6,7 @@ import ProjectLizigou from 'components/ProjectLizigou'
 import Video from 'components/content/Video'
 import GaoxiaPublicStage from 'components/content/GaoxiaPublicStage'
 import SelfAbasedChapel from 'components/content/SelfAbasedChapel'
+import InTheMiddleOfTheCloud from 'components/content/InTheMiddleOfTheCloud'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./detail.less"
 
@@ -63,6 +64,136 @@ const projects = {
     '9.jpg',
     '11.jpg',
     '12.jpg'
+  ],
+  'in-the-middle-of-the-cloud': [
+    {
+      img: '/white-background.jpg',
+      component: <InTheMiddleOfTheCloud/>
+    }, {
+      img: '01.jpg',
+      description: '从西村口看建筑',
+      enDescription: 'view of the building from the west village entrance'
+    }, {
+      img: '02.jpg',
+      description: '建筑与围栏西立面',
+      enDescription: 'west facade of building and fence'
+    }, {
+      img: '03.jpg',
+      description: '从南边田间看建筑',
+      enDescription: 'view from the fields in the south to the building'
+    }, {
+      img: '04.jpg',
+      description: '从南边看玻璃单元框架',
+      enDescription: 'view of the glass unit frame from the south'
+    }, {
+      img: '05.jpg',
+      description: '从东南边看玻璃单元框架',
+      enDescription: 'view of the glass unit frame from the southeast side'
+    }, {
+      img: '06.jpg',
+      description: '改造前院落照片',
+      enDescription: 'photos of the yard before the renovation'
+    }, {
+      img: '07.jpg',
+      description: '从东边看玻璃框架',
+      enDescription: 'view of the glass frame from the east'
+    }, {
+      img: '08.jpg',
+      description: '玻璃框架间',
+      enDescription: 'in the middle of the glass frame'
+    }, {
+      img: '09.jpg',
+      description: '从南边看玻璃框架',
+      enDescription: 'view of the glass frame from the south'
+    }, {
+      img: '10.jpg',
+      description: '玻璃框架间',
+      enDescription: 'in the middle of the glass frame'
+    }, {
+      img: '11.jpg',
+      description: '架高平台',
+      enDescription: 'elevated platform'
+    }, {
+      img: '12.jpg',
+      description: '架高平台',
+      enDescription: 'elevated platform'
+    }, {
+      img: '13.jpg',
+      description: '从平台上看南边风景',
+      enDescription: 'view from the platform to the south'
+    }, {
+      img: '14.jpg',
+      description: '从平台上看南边风景',
+      enDescription: 'view from the platform to the south'
+    }, {
+      img: '15.jpg',
+      description: '影壁',
+      enDescription: 'screen wall'
+    }, {
+      img: '16.jpg',
+      description: '原建筑与玻璃框架之间',
+      enDescription: 'between the original building and glass frame'
+    }, {
+      img: '17.jpg',
+      description: '村口值班室钢板表皮与院落围栏的呼应',
+      enDescription: 'the echo between the steel plate skin of the duty room at the village entrance and the fence of the courtyard'
+    }, {
+      img: '18.jpg',
+      description: '金属围栏',
+      enDescription: 'metal fence'
+    }, {
+      img: '19.jpg',
+      description: '金属围栏',
+      enDescription: 'metal fence'
+    }, {
+      img: '20.jpg',
+      description: '接待室',
+      enDescription: 'the reception room'
+    }, {
+      img: '21.jpg',
+      description: '分析图',
+      enDescription: 'diagram'
+    }, {
+      img: '22.jpg',
+      description: '可使用的旧玻璃照片',
+      enDescription: 'photo of usable old glass'
+    }, {
+      img: '23.jpg',
+      description: '已有玻璃尺寸与数量统计图',
+      enDescription: 'old glass size and quantity statistics'
+    }, {
+      img: '24.jpg',
+      description: '玻璃使用分布图',
+      enDescription: 'glass use distributed diagram'
+    }, {
+      img: '25.jpg',
+      description: 'axonometric diagram',
+      enDescription: '轴测图'
+    }, {
+      img: '26.jpg',
+      description: '植物覆盖界面参考照片',
+      enDescription: 'plant covered ”interface“ reference'
+    }, {
+      img: '27.jpg',
+      description: '植物覆盖界面效果图',
+      enDescription: 'rendering of the plant covered ”interface“'
+    }, {
+      img: '28.jpg',
+      description: '屋顶平面图',
+      enDescription: 'roof plan'
+    }, {
+      img: '29.jpg',
+      description: '首层平面图',
+      enDescription: '1F floor plan'
+    }, {
+      img: '30.jpg',
+      description: '立面图',
+      enDescription: 'elevation'
+    }, {
+      img: '31.jpg',
+      description: '玻璃节点图',
+      enDescription: 'glass junction drawing'
+    }
   ],
   'xiaoyin': [
     '4.jpg',

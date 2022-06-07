@@ -43,6 +43,12 @@ const pictures = [{
   title: 'BONUS 空间设计',
   subtitle: '中国西安.2018'
 }, {
+  src: '/in-the-middle-of-the-cloud.jpg',
+  link: 'projects/[name]',
+  asLink: 'projects/in-the-middle-of-the-cloud',
+  title: '云中间',
+  subtitle: '中国北京.2021'
+}, {
   src: '/dian.jpg',
   link: 'projects/[name]',
   asLink: 'projects/dian',
