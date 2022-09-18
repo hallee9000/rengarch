@@ -7,6 +7,7 @@ import Video from 'components/content/Video'
 import GaoxiaPublicStage from 'components/content/GaoxiaPublicStage'
 import SelfAbasedChapel from 'components/content/SelfAbasedChapel'
 import InTheMiddleOfTheCloud from 'components/content/InTheMiddleOfTheCloud'
+import QFactor from 'components/content/QFactor'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./detail.less"
 
@@ -209,6 +210,41 @@ const projects = {
     '11.jpg',
     '12.jpg',
     '13.jpg'
+  ],
+  'Q-factor': [
+    {
+      img: '/white-background.jpg',
+      component: <QFactor/>
+    },
+    '01-街景图,street view of the project©刘俊男.jpg',
+    '02-沿街渐变，gradient along the street ©刘俊男.jpg',
+    '03-沿街立面，facade along the street ©刘俊男.jpg',
+    '04-沿街立面，facade along the street ©刘俊男.jpg',
+    '05-改造前立面.jpg',
+    '06-从东北角看立面，view of the facade from the northeast©刘俊男.jpg',
+    '07-从东南角看立面，view of the facade from the southeast©刘俊男.jpg',
+    '08-新增砖片表皮，brick facade©刘俊男.jpg',
+    '08-砖片表皮节点，brick facade ©高雨滴.jpg',
+    '09-从展览空间向街道看，view from the exhibition space towards the street©刘俊男.jpg',
+    '09-东立面图，east elevation©礽建筑.jpg',
+    '10-临街展览空间,pop-up exhibition space©刘俊男.jpg',
+    '11-临街展览空间,pop-up exhibition space©刘俊男.jpg',
+    '12-蜂窝纸板单元组合，honeycomb cardboard unit combination©高雨滴.jpg',
+    '12-平面布置图,the floor plan©礽建筑.jpg',
+    '13-卖场区，the store area©刘俊男.jpg',
+    '13-折叠推拉木构架，retractable wooden structure©刘俊男.gif',
+    '14-折叠推拉木构架，retractable wooden structure©刘俊男.jpg',
+    '15-折叠推拉木构架，retractable wooden structure©刘俊男.jpg',
+    '16-折叠推拉木构架，retractable wooden structure©刘俊男.jpg',
+    '16-折叠推拉木构架多场景使用，retractable wooden structure for multi-scenario use©高雨滴.jpg',
+    '17-折叠推拉木构架，retractable wooden structure©刘俊男.jpg',
+    '18--折叠推拉木构架，retractable wooden structure©刘俊男.jpg',
+    '18-木架构立面图,plan and elevation of wooden structure©礽建筑.jpg',
+    '19-卖场区，the store area©刘俊男.jpg',
+    '20--卖场区，the store area©刘俊男.jpg',
+    '25-木架构节点示意图,diagram of wooden structure©礽建筑.jpg',
+    '25-折叠推拉木构架底部，retractable wooden structure©刘俊男.jpg',
+    '26-蜂窝纸板单元收银台，honeycomb cardboard unit counter©刘俊男.jpg'
   ],
   'gaoxia-public-stage': [
     {

@@ -31,6 +31,12 @@ const pictures = [{
   description: 'Lizigou Red Brick Ceremonial Hall Building in rural countryside by KEYWORKS+RENGARCH',
   subtitle: '中国河南洛阳.2017-2019'
 }, {
+  key: 'Q-factor',
+  src: '/projects/Q-factor.jpg',
+  title: '沿街渐变，Q - factor买手店',
+  description: 'Gradient along the street, Q-factor store, Shanghai',
+  subtitle: '中国上海.2022'
+}, {
   key: 'bonus',
   src: '/projects/bonus.jpg',
   title: 'BONUS 空间设计',
