@@ -37,6 +37,12 @@ const pictures = [{
   title: '李子沟村的红砖自然礼堂 Lizigou Red Brick Ceremonial Hall Building in rural countryside by KEYWORKS+RENGARCH',
   subtitle: '中国河南洛阳.2017-2019'
 }, {
+  src: '/projects/xyz-gallery.jpg',
+  link:  'projects/[name]',
+  asLink: 'projects/xyz-gallery',
+  title: 'XYZ画廊，北京798 XYZ',
+  subtitle: '中国北京.2023.4'
+}, {
   src: '/projects/Q-factor.jpg',
   link:  'projects/[name]',
   asLink: 'projects/Q-factor',
