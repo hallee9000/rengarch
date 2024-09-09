@@ -1,16 +1,6 @@
 [
   {
     "type": "image",
-    "src": "https://rengarch.com/projects/gaoxia-public-stage/01.jpg",
-    "caption": "正视图"
-  },
-  {
-    "type": "image",
-    "src": "https://rengarch.com/projects/gaoxia-public-stage/02.jpg",
-    "caption": "侧视图"
-  },
-  {
-    "type": "image",
     "src": "public/data/projects/gaoxia-public-stage/1adccf52-9809-4369-8d63-4acda957dc34.jpg",
     "caption": "02-街景图,street view of the project©吕博.jpg"
   },
