@@ -1,7 +1,7 @@
 {
   "name": "rengarch",
   "description": "礽建筑网站",
-  "repository": "git@github.com:leadream/rengarch.git",
+  "repository": "git@github.com:hallee9000/rengarch.git",
   "author": "Hal <leadream4@gmail.com>",
   "version": "0.1.0",
   "private": true,
@@ -12,18 +12,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.4.6",
+    "@phosphor-icons/react": "^2.1.7",
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
-    "next": "13.4.12",
+    "framer-motion": "^11.3.30",
+    "js-cookie": "^3.0.5",
+    "next": "14.2.6",
+    "octokit": "^4.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swiper": "^10.0.4",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "sass": "^1.64.1"
+    "@types/js-cookie": "^3.0.6",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
   }
 }

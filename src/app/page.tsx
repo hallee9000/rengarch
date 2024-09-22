@@ -1,22 +1,18 @@
-'use client'
+import Gallery from '@/components/Gallery'
 
-import Image from 'next/image'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import './home.scss'
+export async function fetchProjects() {
+  return await fetch(`${process.env.BASE_URL}/data/projects/index.json`).then(res => res.json())
+}
 
-export default function Home() {
+export default async function Home() {
+  const projects = await fetchProjects()
+  console.log(projects)
+
   return (
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-      className='rengarch-swiper-container'
-    >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-    </Swiper>
+    <div>
+      <Gallery
+        projects={projects}
+      />
+    </div>
   )
 }
