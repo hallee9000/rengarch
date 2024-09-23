@@ -9,6 +9,7 @@ import SelfAbasedChapel from 'components/content/SelfAbasedChapel'
 import InTheMiddleOfTheCloud from 'components/content/InTheMiddleOfTheCloud'
 import XYZGallery from 'components/content/XYZGallery'
 import QFactor from 'components/content/QFactor'
+import DriftingIkatBox from 'components/content/DriftingIkatBox'
 import 'react-id-swiper/src/styles/css/swiper.css'
 import "./detail.less"
 
@@ -31,6 +32,51 @@ const params = {
 }
 
 const projects = {
+  'drifting-ikat-box': [
+    {
+      img: '/white-background.jpg',
+      component: <DriftingIkatBox/>
+    },
+    {
+      img: '/white-background.jpg',
+      component: <Video link="https://v.qq.com/txp/iframe/player.html?vid=j35571zo8bk"/>
+    },
+    "01-“海边漂流的絣染盒子”,“drifting ikat frame box on the seashore”©礽建筑+关念工斯.jpg",
+    "02-“海上漂流的絣染盒子”,“drifting ikat frame box on the sea”©礽建筑+关念工斯.jpg",
+    "03-海南黎族织娘,Hainan Li ethnic group women©深圳玲珑时空文化创意有限公司.jpg",
+    "04-黎锦文化田野调查,field research on Li brocade©深圳玲珑时空文化创意有限公司，马誉珂（中央民族大学师资博士后）.jpg",
+    "05-织娘与絣染架，weaver and the ikat frame ©马誉珂（中央民族大学师资博士后）.jpg",
+    "06-”漂流回展厅的絣染盒子“,the ikat frame box drifting back to the exhibition hall©吕博.jpg",
+    "07-展厅室内,exhibition hall interior©吕博.jpg",
+    "08-两个絣染架盒子置入在“TIN的道场”,two ikat frame boxes are placed in the “daochang of TIN”©吕博.jpg",
+    "09-展厅室内,exhibition hall interior©吕博.jpg",
+    "10-展开的絣染架盒子,the unfolded ikat frame box©吕博.jpg",
+    "11-展开的絣染架盒子,the unfolded ikat frame box©吕博.jpg",
+    "12-絣染架单元立面穿插分析图，analysis diagram of the interlaced combination of ikat frame units©礽建筑+关念工斯.jpg",
+    "13-絣染架作为建构单元的立面,The façade of  ikat frames as construction units©吕博.jpg",
+    "14-絣染架作为建构单元的立面,The façade of  ikat frames as construction units©吕博.jpg",
+    "15-以“结绳记事”延展生成的构造方式,the construction method of knotting ropes to form an assembled and disassembled installation box©吕博.jpg",
+    "16-絣染架作为建构单元,The ikat frames as a construction unit©吕博.jpg",
+    "17-絣染架盒子建构轴测图，axonometric drawing of the construction of the ikat frame box ©礽建筑+关念工斯.jpg",
+    "20-展开的絣染架盒子,the unfolded ikat frame box©吕博.jpg",
+    "23-展厅室内,exhibition hall interior©吕博.jpg",
+    "25-展开的絣染架盒子,the unfolded ikat frame box©吕博.jpg",
+    "27-外露的五金合件以及绑带作为固定节点，exposed hardware and straps as fixed nodes©吕博.jpg",
+    "28-外露的五金合件以及绑带作为固定节点，exposed hardware and straps as fixed nodes©吕博.jpg",
+    "29-编织而成的立面，woven facade©吕博.jpg",
+    "30-编织而成的立面，woven facade©吕博.jpg",
+    "31-拆絣后的棉线与外立面编织立面图，cotton thread after untying and woven facade elevation©深圳玲珑时空文化创意有限公司，礽建筑+关念工斯.jpg",
+    "32-外立面编织分析，facade weaving  analysis diagram©礽建筑+关念工斯.jpg",
+    "33-草木染棉线的柱子，the column of plant-dyed cotton threads©吕博.jpg",
+    "34-草木染棉线的柱子，the column of plant-dyed cotton threads©吕博.jpg",
+    "35-絣染架与牛皮凳，ikat frame and leather stool©吕博.jpg",
+    "36-竹子”沙发“，bamboo sofa©吕博.jpg",
+    "37-盒子作为展示陈列功能，the display function of the box©礽建筑+关念工斯.jpg",
+    "38-展厅平面图，exhibition hall floor plan©礽建筑+关念工斯.jpg",
+    "39-装置立面图,installation elevation©礽建筑+关念工斯.jpg",
+    "40-装置立面图,installation elevation©礽建筑+关念工斯.jpg",
+    "41-装置详图,installation details©礽建筑+关念工斯.jpg",
+  ],
   'bonus': [
     {
       img: '/white-background.jpg',

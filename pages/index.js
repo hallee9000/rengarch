@@ -19,6 +19,12 @@ const params = {
 }
 
 const pictures = [{
+  src: '/projects/drifting-ikat-box.jpg',
+  link: 'projects/[name]',
+  asLink: 'projects/drifting-ikat-box',
+  title: '漂流的絣染盒子 /礽建筑+关念工斯',
+  subtitle: '中国海南东方.2023'
+}, {
   src: '/self-abased-chapel.jpg',
   link: 'projects/[name]',
   asLink: 'projects/self-abased-chapel',

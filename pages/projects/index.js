@@ -15,6 +15,11 @@ const params = {
 }
 
 const pictures = [{
+  key: 'drifting-ikat-box',
+  src: '/projects/drifting-ikat-box.jpg',
+  title: '漂流的絣染盒子 /礽建筑+关念工斯',
+  subtitle: '中国海南东方.2023'
+}, {
   key: 'self-abased-chapel',
   src: '/projects/self-abased-chapel.jpg',
   title: '自卑礼堂',
