@@ -4,3 +4,7 @@ db.json
 node_modules/
 .next/
 dist/
+# local env files
+.env*.local
+
+next-env.d.ts
