@@ -19,6 +19,12 @@ const params = {
 }
 
 const pictures = [{
+  src: '/projects/xiyin-gallery.jpg',
+  link: 'projects/[name]',
+  asLink: 'projects/xiyin-gallery',
+  title: '宜兴溪隐画廊，隐于社区的艺术空间',
+  subtitle: '中国宜兴·2024'
+}, {
   src: '/projects/drifting-ikat-box.jpg',
   link: 'projects/[name]',
   asLink: 'projects/drifting-ikat-box',

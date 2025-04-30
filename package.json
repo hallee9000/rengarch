@@ -8,16 +8,16 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "start": "next start",
-    "build": "next build",
-    "export": "next build && next export"
+    "dev": "export set NODE_OPTIONS=--openssl-legacy-provider && next",
+    "start": "export set NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "build": "export set NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "export": "export set NODE_OPTIONS=--openssl-legacy-provider && next build && next export"
   },
   "dependencies": {
     "@zeit/next-less": "^1.0.1",
     "classnames": "^2.2.6",
     "less": "^3.8.1",
-    "next": "^9.3.2",
+    "next": "9.5.5",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-id-swiper": "^1.6.8"

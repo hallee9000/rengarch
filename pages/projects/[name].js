@@ -8,6 +8,7 @@ import GaoxiaPublicStage from 'components/content/GaoxiaPublicStage'
 import SelfAbasedChapel from 'components/content/SelfAbasedChapel'
 import InTheMiddleOfTheCloud from 'components/content/InTheMiddleOfTheCloud'
 import XYZGallery from 'components/content/XYZGallery'
+import XiYinGallery from 'components/content/XiYinGallery'
 import QFactor from 'components/content/QFactor'
 import DriftingIkatBox from 'components/content/DriftingIkatBox'
 import 'react-id-swiper/src/styles/css/swiper.css'
@@ -517,6 +518,47 @@ const projects = {
     '15.jpg',
     '16.jpg',
   ],
+  'xiyin-gallery': [
+    {
+      img: '/white-background.jpg',
+      component: <XiYinGallery/>
+    },
+    '01-社区物业中心平台，community property center platform©吕博.jpg',
+    '02-入口立面,entrance facade©吕博.jpg',
+    '03-入口立面,entrance facade©吕博.jpg',
+    '04-社区物业中心,community property center ©吕博.jpg',
+    '05-隐于社区中的画廊空间，an art space hidden in the community©礽建筑+关念工斯.jpg',
+    '06-材料及形式选择对于城市地方性的呼应，the choice of materials and forms responds to the local character of the city©礽建筑+关念工斯.jpg',
+    '07-立面像书卷一样打开,the facade opens like a scroll©吕博.jpg',
+    '08-入口立面改造前后对比,comparison-of-entrance-facade-before-and-after-renovation©吕博.gif',
+    '09--入口立面夜景，entrance facade night view©吕博.jpg',
+    '10-入口像书卷一样打开,the entrance opens like a scroll©吕博.jpg',
+    '11-社区客厅入口,community living room entrance©吕博.jpg',
+    '12-从社区客厅看展厅入口,view from the community living room to the exhibition hall ©吕博.jpg',
+    '13-社区客厅,community living room©吕博.jpg',
+    '14-从展厅入口看社区客厅,view from the exhibition hall to the community living room©吕博.jpg',
+    '15-从展厅入口看社区客厅,view from the exhibition hall to the community living room©吕博.jpg',
+    '16-柔性界面作为作品展示背景面,light interface as the background for displaying works©吕博.jpg',
+    '17-展厅中可开可合的柔性界面,flexible-interface-that-can-be-opened-or-closed-in-the-exhibition-hall©吕博.gif',
+    '18-展厅内部,exhibition hall©吕博.jpg',
+    '19-从展厅到社区图书室,view from the exhibition hall to the community reading room©吕博.jpg',
+    '20-社区图书室,community reading room©吕博.jpg',
+    '21-社区图书室台阶座位community reading room step seats©吕博.jpg',
+    '22-社区图书室,community reading room©吕博.jpg',
+    '23-从内部楼梯看社区图书室窗口,view of the community reading room opening from the interior staircase©吕博.jpg',
+    '24-从社区图书室窗口向外看,looking out from the community reading room opening©吕博.jpg',
+    '25-从展厅向外看金属网,metal mesh seen from the exhibition hall©吕博.jpg',
+    '26-金属网通过钢丝绳与地面链接，the metal mesh is connected to the ground by steel wire ropes©吕博.jpg',
+    '27-通过张拉结构升起的金属网，metal mesh raised by tensile structure©李奔跑.jpg',
+    '28-社区客厅置物架，community living room display shelf©吕博.jpg',
+    '29-平面图, floor plan©礽建筑+关念工斯.jpg',
+    '30-入口立面图, entrance facade©礽建筑+关念工斯.jpg',
+    '31-室内立面图,interior elevation©礽建筑+关念工斯.jpg',
+    '32-剖面详图,sectional drawing©礽建筑+关念工斯.jpg',
+    '33-剖面详图,sectional drawing©礽建筑+关念工斯.jpg',
+    '34-剖面图,sectional drawing©礽建筑+关念工斯.jpg',
+    '35-详图,detailed drawing©礽建筑+关念工斯.jpg',
+  ]
 }
 
 export default withRouter((props) => {

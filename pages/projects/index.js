@@ -15,6 +15,11 @@ const params = {
 }
 
 const pictures = [{
+  key: 'xiyin-gallery',
+  src: '/projects/xiyin-gallery.jpg',
+  title: '宜兴溪隐画廊，隐于社区的艺术空间',
+  subtitle: '中国宜兴·2024'
+}, {
   key: 'drifting-ikat-box',
   src: '/projects/drifting-ikat-box.jpg',
   title: '漂流的絣染盒子 /礽建筑+关念工斯',
